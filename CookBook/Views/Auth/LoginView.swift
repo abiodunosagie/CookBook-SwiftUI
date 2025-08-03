@@ -13,6 +13,7 @@ struct LoginView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Email")
+                .font(.system(size: 15))
             TextField("Email", text: $email)
         }
     }
